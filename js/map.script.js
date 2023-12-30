@@ -3,7 +3,7 @@
 		function myMap3() {
 			  var mapCanvas = document.getElementById("map3");
 			  var mapOptions = {
-				center: new google.maps.LatLng(45.434046,12.340284),
+				  center: new google.maps.LatLng(35.0832202, -92.2107942),
 				zoom:11,
 				mapTypeId:google.maps.MapTypeId.TERRAIN,
 				styles:[{"featureType":"water","stylers":[{"visibility":"on"},{"color":"#b5cbe4"}]},{"featureType":"landscape","stylers":[{"color":"#efefef"}]},{"featureType":"road.highway","elementType":"geometry","stylers":[{"color":"#83a5b0"}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"color":"#bdcdd3"}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"color":"#ffffff"}]},{"featureType":"poi.park","elementType":"geometry","stylers":[{"color":"#e3eed3"}]},{"featureType":"administrative","stylers":[{"visibility":"on"},{"lightness":33}]},{"featureType":"road"},{"featureType":"poi.park","elementType":"labels","stylers":[{"visibility":"on"},{"lightness":20}]},{},{"featureType":"road","stylers":[{"lightness":20}]}]
