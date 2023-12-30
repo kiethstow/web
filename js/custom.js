@@ -104,8 +104,8 @@ var Fixzer = function(){
 			if($('.mo-left .header-nav').children('.logo-header').length == 0){
 				var logoData = jQuery('<div>').append($('.mo-left .logo-header').clone()).html();
 				jQuery('.mo-left .header-nav').prepend(logoData);
-				jQuery('.mo-left .header-nav .logo-header > a > img').attr('src','images/kieths/kieths_logo_white.png');
-				jQuery('.mo-left.lw .header-nav .logo-header > a > img').attr('src','images/kieths/kieths_logo_white.png');
+				jQuery('.mo-left .header-nav .logo-header > a > img').attr('src','images/kieths/kieths_logo_temp_white.png');
+				jQuery('.mo-left.lw .header-nav .logo-header > a > img').attr('src','images/kieths/kieths_logo_temp_white.png');
 			}
 		}else{
 			jQuery('.mo-left .header-nav .logo-header').remove();
@@ -325,10 +325,10 @@ var Fixzer = function(){
 				var menu = jQuery('.sticky-header');
 				if ($(window).scrollTop() > menu.offset().top) {
 					menu.addClass('is-fixed');
-					$('.header-style-5 .container > .logo-header .logo').attr('src','images/logo.png');
+					$('.header-style-5 .container > .logo-header .logo').attr('src','images/kieths/kieths_logo_temp.png');
 				} else {
 					menu.removeClass('is-fixed');
-					$('.header-style-5 .container > .logo-header .logo').attr('src','images/logo-white-2.png')
+					$('.header-style-5 .container > .logo-header .logo').attr('src','images/kieths/kieths_logo_temp_white.png')
 				}
 			}
 		});
