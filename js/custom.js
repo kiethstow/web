@@ -325,10 +325,10 @@ var Fixzer = function(){
 				var menu = jQuery('.sticky-header');
 				if ($(window).scrollTop() > menu.offset().top) {
 					menu.addClass('is-fixed');
-					$('.header-style-5 .container > .logo-header .logo').attr('src','images/kieths/kieths_logo_temp.png');
+					$('.logo-header img').attr('src','images/kieths/kieths_logo_temp_white.png');
 				} else {
 					menu.removeClass('is-fixed');
-					$('.header-style-5 .container > .logo-header .logo').attr('src','images/kieths/kieths_logo_temp_white.png')
+					$('.logo-header img').attr('src','images/kieths/kieths_logo_temp.png')
 				}
 			}
 		});
